@@ -1,0 +1,10 @@
+body {
+    font-family: "Roboto";
+}
+
+img {
+    Display: block;
+    Object-fit: cover;
+    Max-width: 100%;
+    Margin: auto;
+}

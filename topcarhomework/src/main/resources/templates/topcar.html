@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hien Thi</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1 th:text="${topcar.model}"></h1><br>
+  <p th:text="${topcar.manufacter}"></p><br>
+  <img th:attr="src=@{'/images/' + ${topcar.photo}}, alt=${topcar.price}"/>
+  <p th:text="${topcar.manufacter}"></p>
+  <p th:text="${topcar.price}"></p>
+  <p th:text="${topcar.sales}"></p>
+  <a th:href="@{/topcar/edit/{id}(id=${topcar.id})}">Edit car</a>&nbsp;&nbsp;
+  <a th:href="@{/topcar/delete/{id}(id=${topcar.id})}">Delete car</a><br>
+</body>
+</html>
