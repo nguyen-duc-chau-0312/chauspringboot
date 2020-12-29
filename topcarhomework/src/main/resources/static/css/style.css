@@ -5,6 +5,43 @@ body {
 img {
     Display: block;
     Object-fit: cover;
-    Max-width: 100%;
+    Max-width: 420px;
+    height: auto;
     Margin: auto;
+}
+.box-container{
+    padding-top: 20px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxL{
+    width:500px;
+}
+.boxR{
+    width: 500px;
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 1200px;
+    padding: 20px 20px 20px 20px;
+}
+.fontName{
+    display: flex;
+    justify-content: space-around;
+}
+.font{
+    color: red;
+}
+h2{
+    color: yellow;
+}
+.box-header{
+    display: flex;
+    justify-content: center;
 }
