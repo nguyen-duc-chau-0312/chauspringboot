@@ -1,4 +1,23 @@
+.label{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.body{
+    font-family: "Times New Roman", Times, serif;
+    height: 100vh;
+}
 .container{
+    padding: 40px;
+}
+.result{
     display: flex;
     justify-content: center;
 }
